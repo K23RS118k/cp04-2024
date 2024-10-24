@@ -171,12 +171,12 @@
         var canvas= $("#mycanvas")[0];
         var ctx =canvas.getContext("2d");
         var img =new Image();
-        img.src="hanshin.gif";
+        img.src="hanshin.gif";//背景画像
         img.onload=function(){
-            ctx.drawImage(img,10,10,230,300);
+            ctx.drawImage(img,0,0,210,310);
         };
         var audio= new Audio();
-        audio.src="pin.wav";
+        audio.src="hanshin.m4a";
         audio.play();
         
         
